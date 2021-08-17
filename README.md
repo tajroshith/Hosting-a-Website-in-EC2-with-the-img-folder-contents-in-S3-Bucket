@@ -5,7 +5,7 @@
 
 ## Prerequisites for this project
 
-- Needs AWS CLI Access or IAM User with S3 Admin access
+- Needs AWS CLI Access / IAM User with S3 Admin access
 - AWS CLI needs to be installed on your system
 
 ## Package Installation
