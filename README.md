@@ -1,5 +1,8 @@
 ## Hosting a Website in EC2 with the img folder contents in S3 Bucket
 
+In this project the webfiles are hosted in EC-2 instance with the exception of img folder which is hosted in an S3 Bucket. When the site loads the contents, images are directly loaded from the S3 bucket. We do this by syning / copying the img folder to an s3 bucket and attaching a policy to the bucket that allows the contents in the bucket to be read and displayed also we provide the necessary rewrite rules in the configuration files.
+
+
 
 
 
